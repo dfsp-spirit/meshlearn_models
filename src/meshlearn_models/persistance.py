@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 """
+This file is part of meshlab_models, see https://github.com/dfsp-spirit/meshlearn_models for details.
+
 Model persistence functions.
 """
 
@@ -15,7 +17,7 @@ def load_model(model_file, model_settings_file, verbose=True):
 
     Parameters
     ----------
-    model_fil     e     : str, the filename from which to load the model (Pickle file), must end with '.pkl' or a warning will be printed.
+    model_file          : str, the filename from which to load the model (Pickle file), must end with '.pkl' or a warning will be printed.
     model_settings_file : str or None, the filename from which to load the model metadata (JSON), must end with '.json' or a warning will be printed. If it contains a path, that path must exist. Set to `None` if you do not have a metadata file or do not want to load it.
     verbose             : bool, whether to print status info to stdout. Does not affect warnings, which will be printed even if `verbose=False`.
 

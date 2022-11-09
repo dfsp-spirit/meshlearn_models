@@ -8,4 +8,6 @@ The following models are available:
 * [LightGBM model "v1"](./models/lightgbm/v1/)
 * [LightGBM model "v2"](./models/lightgbm/v2/)
 
+We recommend to always use the latest model version.
+
 See the [meshlearn repo](https://github.com/dfsp-spirit/meshlearn) for all other information, including license, author and documentation.
